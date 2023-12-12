@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RallyDakar.Dominio.Entidades
 {
     public class Telemetria
     {
         public int Id { get; set; }
-        public int TemporadaId { get; set; }
-        public int PilotoId { get; set; }
+        public int EquipeId { get; set; }
         public DateTime Data { get; set; }
-        public TimeSpan Hora { get; set; }
+        public DateTime DataServidor { get; set; }
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
         public decimal PercentualCombustivel { get; set; }
