@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace RallyDakar.Dominio.Entidades
 {
@@ -25,6 +25,11 @@ namespace RallyDakar.Dominio.Entidades
                 {
                     Equipes.Add(equipe);
                 }
+        }
+
+        public Equipe ObterPorId(int id)
+        {
+            return Equipes.FirstOrDefault(e => e.Id == id);
         }
     }
 }

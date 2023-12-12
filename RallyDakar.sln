@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Dominio", "0 - Dominio", "{5D823539-5F14-4080-ADD1-23AF3B31CB1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RallyDakar.Dominio", "RallyDakar.Dominio\RallyDakar.Dominio.csproj", "{AC5699B8-6FAB-49A0-8B16-190D01B4995D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RallyDakar.Dominio", "RallyDakar.Dominio\RallyDakar.Dominio.csproj", "{AC5699B8-6FAB-49A0-8B16-190D01B4995D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RallyDakar.Dominio.Testes", "RallyDakar.Dominio.Testes\RallyDakar.Dominio.Testes.csproj", "{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RallyDakar.Dominio.Testes", "RallyDakar.Dominio.Testes\RallyDakar.Dominio.Testes.csproj", "{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WEB", "1 - WEB", "{0F99B7E1-11AD-4498-813D-D5611BE9875A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 API", "1.1 API", "{3C34564D-3B13-4151-8766-FA7E8C014CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RallyDakar.API", "RallyDakar.API\RallyDakar.API.csproj", "{90260C55-8943-42CC-9D37-DAB75697B5F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,10 @@ Global
 		{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90260C55-8943-42CC-9D37-DAB75697B5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90260C55-8943-42CC-9D37-DAB75697B5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90260C55-8943-42CC-9D37-DAB75697B5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90260C55-8943-42CC-9D37-DAB75697B5F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AC5699B8-6FAB-49A0-8B16-190D01B4995D} = {5D823539-5F14-4080-ADD1-23AF3B31CB1F}
 		{CFCB0A0B-C6C1-4D16-8D17-FE2CF48430AD} = {5D823539-5F14-4080-ADD1-23AF3B31CB1F}
+		{3C34564D-3B13-4151-8766-FA7E8C014CF3} = {0F99B7E1-11AD-4498-813D-D5611BE9875A}
+		{90260C55-8943-42CC-9D37-DAB75697B5F5} = {3C34564D-3B13-4151-8766-FA7E8C014CF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB0EE7C5-7C68-4D36-B199-00F8AE92C71E}
